@@ -23,3 +23,28 @@ Adaptador de Ethernet Ethernet 2:
    Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.56.1
    M scara de subred . . . . . . . . . . . . : 255.255.255.0
    Puerta de enlace predeterminada . . . . . : 
+-----------------------------------------------------------------------------------------------------
+jesus juan jose fernandez 
+14:41pm
+red info:
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : home
+   IPv6 Address. . . . . . . . . . . : 2800:810:423:1d9:7c0b:4875:e9a3:ef85
+   IPv6 Address. . . . . . . . . . . : 2800:810:423:1d9:9612:ef86:5143:8243
+   IPv6 Address. . . . . . . . . . . : fdaa:bbcc:ddee:0:861f:41b1:1365:6ce3
+   Temporary IPv6 Address. . . . . . : 2800:810:423:1d9:c991:b08e:9afc:f0c
+   Temporary IPv6 Address. . . . . . : fdaa:bbcc:ddee:0:c991:b08e:9afc:f0c
+   Link-local IPv6 Address . . . . . : fe80::3574:21a1:54ad:1a64%6
+   IPv4 Address. . . . . . . . . . . : 192.168.0.19
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::86a0:6eff:fe79:bcef%6
+                                       192.168.0.1
+
+Ethernet adapter Ethernet 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::66d2:b861:464f:2bf1%5
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+
