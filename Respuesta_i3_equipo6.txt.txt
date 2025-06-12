@@ -1,0 +1,45 @@
+Responde BETA:
+a-¿Cómo queda el máster después de estos cambios?
+El branch main queda actualizado con todos los archivos y cambios importantes.
+Se incorporó el archivo beta.txt con la información combinada de ambos integrantes (BETA y GAMMA), incluyendo nombre, apellido, IP y hora.
+Además, los archivos como CPUBeta.txt y datos.txt están presentes.
+El historial de commits en main muestra los merges y combinaciones realizadas.
+
+b-¿Beta pudo ver todos los cambios que se realizaron?
+Al principio, BETA no podía ver todos los cambios porque algunos estaban en ramas distintas, como fernandez o beta.
+Para poder ver los cambios de GAMMA, fue necesario traer el contenido de la rama beta y combinarlo manualmente en el archivo beta.txt.
+Después de hacer esto y subir los cambios, BETA sí pudo ver todos los datos combinados correctamente.
+
+c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+# 1. Cambiar a la rama principal
+git checkout main
+
+# 2. Asegurarse de tener la versión más reciente del repositorio
+git pull origin main
+git fetch origin
+
+# 3. Cambiar a la rama beta del compañero y actualizarla
+git checkout beta
+git pull origin beta
+
+# 4. Volver a la rama main
+git checkout main
+
+# 5. Intentar hacer el merge con beta
+git merge beta
+
+Si el comando git merge beta decía “Already up to date”, pero los datos de GAMMA no estaban, entonces se hizo lo siguiente:
+
+# 6. Traer el archivo desde la rama beta
+git checkout beta -- beta.txt
+
+# 7. Editar el archivo para combinar datos de Beta y Gamma
+nano beta.txt
+# (Guardar: Ctrl + O, Enter / Salir: Ctrl + X)
+
+# 8. Agregar y confirmar el cambio
+git add beta.txt
+git commit -m "Combinar info de Beta y Gamma en beta.txt"
+
+# 9. Subir los cambios al repositorio remoto
+git push origin main
